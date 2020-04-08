@@ -1,0 +1,270 @@
+.item {
+  margin-left: 45px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.code {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.coment{
+  color: #8e8e8e;
+}
+
+.reservedWord{
+  color: #ff5400;
+}
+
+.symbol{
+  color: #009187;
+}
+
+html{
+  font-family: 'Istok Web', sans-serif;
+}
+
+main {
+	padding-left: 300px;
+}
+
+
+footer {
+  position: fixed;
+  padding: 20px;
+  bottom:100px; 
+  z-index: -1;
+}
+
+@media only screen and (max-width : 992px) {
+   main {
+    padding-left: 0;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.clase {
+  height: 100%;
+}
+
+.lessonTitle {
+  margin-top: 8vh;
+  font-weight: 500;
+}
+
+.lesson {
+  padding: 30px!important;
+  border-radius: 20px;
+  text-align: justify;
+  width: 100%;
+}
+
+.containerFooter {
+  text-align: left;
+}
+
+.creditosCard {
+  background-image: linear-gradient(to bottom right, #000000, #ffffff);
+}
+
+.creditosCard:hover {
+  cursor: pointer;
+}
+
+.cardTema1 {
+  background-image: linear-gradient(to bottom right, #00bcd4, #18ffff);
+  cursor: pointer;
+}
+
+.cardTema2 {
+  background-image: linear-gradient(to bottom left, #d4e157, #eeff41);
+  cursor: pointer;
+}
+
+.cardTema3 {
+  background-image: linear-gradient(to top right, #ff4081, #ff80ab);
+  cursor: pointer;
+}
+
+.cardTema4 {
+  background-image: linear-gradient(to top left, #ffa726, #ffab40);
+  cursor: pointer;
+}
+
+.inicioClasesCard-action {
+  border-top-color: white!important;
+}
+
+.inicioClasesCard {
+  background-image: linear-gradient(to bottom right, #00bcd4, #18ffff);
+  cursor: pointer;
+}
+
+.student_image {
+  width: 150%; 
+  height: auto;
+}
+
+.menuButtonLessons {
+  position: fixed; 
+  left: 10px; 
+  top: 10px; 
+  z-index: 10;
+  color: black;
+}
+
+.menuButton {
+  position: fixed; 
+  left: 10px; 
+  top: 10px; 
+  z-index: 10;
+  color: white;
+}
+
+.logo{
+  width: 100%; 
+  height: auto;
+  cursor: pointer;
+}
+
+.cian_degrade {
+  transition: background-position 1s ease;
+  background-image: linear-gradient(to right, #00e5ff, #fafafa 45%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+}
+
+.cian_degrade:hover {
+  background-position: left bottom;
+}
+
+.lime_degrade {
+  transition: background-position 1s ease;
+  background-image: linear-gradient(to right, #eeff41, #fafafa 45%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+}
+
+.lime_degrade:hover {
+  background-position: left bottom;
+}
+
+.pink_degrade {
+  transition: background-position 1s ease;
+  background-image: linear-gradient(to right, #ff4f89, #fafafa 45%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+}
+
+.pink_degrade:hover {
+  background-position: left bottom;
+}
+
+.orange_degrade {
+  transition: background-position 1s ease;
+  background-image: linear-gradient(to right, #ffab40, #fafafa 45%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+}
+
+.orange_degrade:hover {
+  background-position: left bottom;
+}
+
+.black_degrade {
+  transition: background-position 1s ease, color 1s ease;
+  background-image: linear-gradient(to right, #444444, #fafafa 45%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+}
+
+.black_degrade:hover {
+  background-position: left bottom;
+  color: white;
+}
+
+.degrade_active {
+  background-position: left bottom;
+}
+
+.blackSquare {
+  background-color: #d3d3d3!important;
+  border: 1px solid white!important;
+  padding: 0px!important;
+}
+
+.whiteSquare {
+  cursor: text;
+  background-color: white!important;
+  border: 1px solid #d3d3d3!important;
+  padding: 0px!important;
+}
+
+.whiteSquare {
+  cursor: text;
+  background-color: white!important;
+  border: 1px solid #d3d3d3!important;
+  padding: 0px!important;
+  font-size: 10px;
+}
+
+.whiteSquare-active {
+  cursor: text;
+  background-color: #e5e3e3!important;
+  border: 1px solid #d3d3d3!important;
+  padding: 0px!important;
+  font-size: 10px;
+}
+
+.whiteSquare-active-used {
+  cursor: text;
+  background-color: #fcdccc!important;
+  padding: 0px!important;
+  font-size: 10px;
+}
+
+.cruci-numero {
+  position: absolute;
+  top: 0;
+  color: #777777;
+}
+
+.string {
+  color: #5e5e5e;
+}
+
+.videosPart1 {
+  width: 80%;
+}
+
+[type="radio"].lime:checked+span:after{
+    background-color: #d4e157!important;
+}
+
+[type="radio"].lime:checked+span:after{
+    border: 2px solid #d4e157!important;
+}
+
+[type="radio"].pink:checked+span:after{
+    background-color: #ff4081!important;
+}
+
+[type="radio"].pink:checked+span:after{
+    border: 2px solid #ff4081!important;
+}
+
+[type="radio"].orange:checked+span:after{
+    background-color: #ffa726!important;
+}
+
+[type="radio"].orange:checked+span:after{
+    border: 2px solid #ffa726!important;
+}
